@@ -3,7 +3,7 @@
 const expect = require('chai').expect
 const wrapSchema = require('./index')
 const mongoose = require('mongoose')
-const {Schema} = mongoose
+const Schema = mongoose.Schema
 require('co-mocha')
 
 class User extends Schema {
