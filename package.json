@@ -1,0 +1,40 @@
+{
+  "name": "mongoose-async-class",
+  "version": "0.4.2",
+  "description": "Cleaner ES6 async Mongoose class using Generators + Co",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require co-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viniciusps2/mongoose-async-class.git"
+  },
+  "keywords": [
+    "mongoose",
+    "class",
+    "async",
+    "co",
+    "await",
+    "method",
+    "es6",
+    "promise",
+    "coroutine",
+    "generator"
+  ],
+  "author": "Vinicius Sanches <vinicius.sjc@gmail.com> (https://github.com/viniciusps2/mongoose-async-class)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viniciusps2/mongoose-async-class/issues"
+  },
+  "homepage": "https://github.com/viniciusps2/mongoose-async-class",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "co-mocha": "1.2.0",
+    "mocha": "3.2.0",
+    "mongoose": "^4.8.3"
+  },
+  "dependencies": {
+    "async-class-co": "0.4.2"
+  }
+}
