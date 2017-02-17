@@ -1,6 +1,6 @@
 {
   "name": "mongoose-async-class",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Cleaner ES6 async Mongoose class using Generators + Co",
   "main": "index.js",
   "scripts": {
@@ -35,6 +35,6 @@
     "mongoose": "^4.8.3"
   },
   "dependencies": {
-    "async-class-co": "0.4.2"
+    "async-class-co": "0.4.3"
   }
 }
