@@ -5,7 +5,7 @@ Clean ES6 async class wrapper for Mongoose in Node 4.0.0+. A solution to use pro
 This package uses [async-class-co](https://github.com/viniciusps2/async-class-co) which is a fork from the project [async-class](https://github.com/danielstjules/async-class). But implemented with Generators and [Co](https://github.com/tj/co) instead of Bluebird (present in the original async-class project).
 
 
-[![Build Status](https://github.com/viniciusps2/mongoose-async-class.svg?branch=master)](https://travis-ci.org/viniciusps2/mongoose-async-class)
+[![Build Status](https://travis-ci.org/viniciusps2/mongoose-async-class.svg?branch=master)](https://travis-ci.org/viniciusps2/mongoose-async-class)
 
 ## Installation
 
