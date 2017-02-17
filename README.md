@@ -10,8 +10,6 @@ This package uses [mongoose-async-class](https://github.com/viniciusps2/mongoose
 [![Coverage percentage][coveralls-image]][coveralls-url]
 [![Standard - JavaScript Style Guide][standard-image]][standard-url]
 
-[![Build Status](https://travis-ci.org/viniciusps2/mongoose-async-class.svg?branch=master)](https://travis-ci.org/viniciusps2/mongoose-async-class)
-
 ## Installation
 
 ```
