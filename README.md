@@ -1,10 +1,8 @@
 # mongoose-async-class
 
-Cleaner ES6 async class wrapper for Mongoose in Node 4.0.0+. A solution to using promises
-and coroutines with classes without the overhead of babel, or the need to adopt
-unimplemented syntax and features, until v8/node supports ES7 async/await.
+Clean ES6 async class wrapper for Mongoose in Node 4.0.0+. A solution to use promises and coroutines with classes without the overhead of babel, or the necessity to adopt unimplemented syntax and features like async/await (until v8/node supports those features).
 
-This package use a a Forked async-class (https://travis-ci.org/danielstjules/async-class) that is implemented with Generators and Co (https://github.com/tj/co).
+This package uses [async-class-co](https://github.com/viniciusps2/async-class-co) which is a fork from the project [async-class](https://github.com/danielstjules/async-class). But implemented with Generators and [Co](https://github.com/tj/co) instead of Bluebird (present in the original async-class project).
 
 
 [![Build Status](https://github.com/viniciusps2/mongoose-async-class.svg?branch=master)](https://travis-ci.org/viniciusps2/mongoose-async-class)
@@ -68,5 +66,5 @@ Clean ES6 classes and async methods for Mongoose!
 #### async-class.wrapSchema(klass)
 
 Wraps static and instance methods whose name ends with Async, or are
-GeneratorFunctions, other methods will not be wrapped but can be used when calling a Model.
+GeneratorFunctions, other methods will not be wrapped but can be used when calling the Model.
 Any GeneratorFunction is wrapped with co.wrap(). Returns the class.

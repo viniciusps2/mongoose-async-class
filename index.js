@@ -1,9 +1,11 @@
-const {getStaticMethods, getInstanceMethods} = require('async-class-co')
+'use strict'
+
+const asyncClassCo = require('async-class-co')
 
 function wrapSchema (SchemaClass) {
   const schema = new SchemaClass()
-  schema.statics = getStaticMethods(SchemaClass)
-  schema.methods = getInstanceMethods(SchemaClass)
+  schema.statics = asyncClassCo.getStaticMethods(SchemaClass)
+  schema.methods = asyncClassCo.getInstanceMethods(SchemaClass)
   return schema
 }
 
